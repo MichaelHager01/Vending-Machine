@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <left>
+      <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="one" layoutX="14.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#one_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="two" layoutX="142.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#two_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="three" layoutX="265.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#three_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="four" layoutX="386.0" layoutY="131.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#four_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="five" layoutX="14.0" layoutY="266.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#five_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="six" layoutX="142.0" layoutY="266.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#six_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="seven" layoutX="265.0" layoutY="266.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#seven_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Button fx:id="eight" layoutX="386.0" layoutY="266.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#eight_clicked" prefHeight="100.0" prefWidth="100.0" text="Empty" />
+            <Label layoutX="157.0" layoutY="38.0" text="Vending Machine">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="load" layoutX="179.0" layoutY="81.0" mnemonicParsing="false" onAction="#load_clicked" text="Load Vending Machine!" />
+         </children>
+      </Pane>
+   </left>
+</BorderPane>
